@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  `mongodb+srv://dummyuser:dummy123@cluster0.asrxisc.mongodb.net/`
+  `mongodb+srv://dummyuser:********@cluster0.asrxisc.mongodb.net/`
 );
 
 const productRoutes = require("./api/routes/products");
